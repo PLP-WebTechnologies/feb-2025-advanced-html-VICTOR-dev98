@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Unit</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman numerals -->
+    <h1>Roman Numerals Ordered List</h1>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Features</li>
+        <li>Examples</li>
+        <li>Conclusion</li>
+    </ol>
+
+    <!-- Inserting external image from pexel -->
+    <h2>Beautiful Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg" alt="A sample image" width="250" />
+   
+    <!-- Table of Contacts section -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chikweze adima</td>
+                <td>123 Main St, Lagos</td>
+                <td>(123) 456-7890</td>
+                <td>chikdima@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Perez Mugo</td>
+                <td>205-20109, Subukia</td>
+                <td>(254) 098-765</td>
+                <td>mugo@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Mark Brown</td>
+                <td>789 Pine Rd, Austin</td>
+                <td>(555) 456-7123</td>
+                <td>mark.brown@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>321 Bellevue, Countryside</td>
+                <td>(333) 987-6543</td>
+                <td>emily.white@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Waceke Muraguri</td>
+                <td>456 Rd, Kathiani</td>
+                <td>(222) 555-8888</td>
+                <td>muraguri@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <!-- Registration Form section -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST" id="registration-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Australia">Australia</option>
+         </select><br><br>
+
+        <label for="subscribe">Subscribe to Newsletter:</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Yes, I want to receive updates</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Multimedia</h2>
+    <h3>Audio Example</h3>
+    <audio controls>
+        <source src="https://www.pexels.com/video/playing-music-with-an-old-vinyl-record-1793534/" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio><br><br>
+
+    <h3>Video Example</h3>
+    <video controls width="600">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+         Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
